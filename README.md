@@ -35,4 +35,16 @@ python manage.py runserver
 ```
 
 ## API access
-For API access and details see the doc file in application/documents folder.
+For Product list Access: http://localhost:8000/product/
+For Product detail Access: http://localhost:8000/product/1
+For Create Product Attribute: http://localhost:8000/product/1/attribute   #Example for adding first product attribute
+For See Product Attribute List: http://localhost:8000/product/attribute-list
+For Create Product Price: http://localhost:8000/product/1/price   #Example for adding first product price
+For See Product Price List: http://localhost:8000/product/price-list
+
+## TO SEE THE DIAGRAM
+documents/Product ERD.pdf
+
+## FOR ADMIN LOGIN
+user name: admin
+password: home1234

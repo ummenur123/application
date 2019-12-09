@@ -29,7 +29,7 @@ urlpatterns = [
 
     # Product Attribute API URLs
     path(
-        'attribute/',
+        '<int:pk>/attribute/',
         views.ProductAttributeCreateAPIView.as_view(),
         name='product_attribute_create',
     ),
@@ -41,7 +41,7 @@ urlpatterns = [
 
     # Product Price API URLs
     path(
-        'price/',
+        '<int:pk>/price/',
         views.ProductPriceCreateAPIView.as_view(),
         name='product_price_create',
     ),
